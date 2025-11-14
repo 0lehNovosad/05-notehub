@@ -1,3 +1,5 @@
+console.log("VITE_NOTEHUB_TOKEN:", import.meta.env.VITE_NOTEHUB_TOKEN);
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
