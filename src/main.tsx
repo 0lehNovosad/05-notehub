@@ -1,3 +1,6 @@
+console.log("TOKEN:", import.meta.env.VITE_NOTEHUB_TOKEN);
+
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
@@ -12,3 +15,4 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     </QueryClientProvider>
   </React.StrictMode>
 );
+
